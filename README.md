@@ -1,7 +1,7 @@
-# Comenzando con la prueba (configurando estilo)
+# Comenzando con la prueba 
 
-Primero se agregara el estilo global para dar el color oscuro
-
+## configurando estilos
+Primero se agregara el estilo global para dar los colores
 
 ## configurando Layouts
 
