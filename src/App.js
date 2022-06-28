@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Box } from "@mui/material";
 
-import fetchQuestions from "./components/services/fetchQuestions";
+import fetchQuestions from "./services/fetchQuestions";
 import Table from "./components/Table/Table";
 import { AppContainer } from "./core-ui/styled";
 import { Header } from "./Layouts/Header";
