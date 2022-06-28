@@ -1,10 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@mui/material";
+import Table from "./components/Table/Table";
+import { AppContainer } from "./core-ui/styled";
+import { Header } from "./Layouts/Header";
+import { tableQuestionHeader } from "./constants";
+import { useState } from "react";
 
 function App() {
+  const [questions, setQuestions] = useState([]);
+
+  const [filterQuestions, setFilterQuestions] = useState([]);
+
+  const [filterWord, setFilterWord] = useState('');
+
+
   return (
     <div className="App">
-      <div>Hello</div>
+      <Header />
+      <AppContainer sx={{ mt: 10 }}>
+        <Box>
+          <Table
+            headers={tableQuestionHeader}
+            rows={filterQuestions}
+            title={'Question #1'}
+          />
+        </Box>
+      </AppContainer>
     </div>
   );
 }
