@@ -27,6 +27,7 @@ import { FilterTableBox } from "./styles/TableBox.styles";
 import { FormControlStyled } from "./styles/FormControlStyled";
 // utils
 import { getComparator, stableSort } from "../../utils";
+import { Paginator } from "./styles/Paginator.styles";
 
 const Table = ({
     headers = [],
@@ -131,7 +132,7 @@ const Table = ({
                     </TemplateTable>
                 </TableContainer>
 
-                <Pagination
+                <Paginator
                     hidePrevButton
                     variant="outlined" 
                     shape="rounded"

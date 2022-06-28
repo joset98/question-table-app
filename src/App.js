@@ -21,7 +21,7 @@ function App() {
           <Table
             headers={tableQuestionHeader}
             rows={filterQuestions}
-            title={'Question #1'}
+            title={'Browse Questions'}
           />
         </Box>
       </AppContainer>

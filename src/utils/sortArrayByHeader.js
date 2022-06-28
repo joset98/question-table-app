@@ -16,6 +16,8 @@ export function getComparator(order, orderBy) {
 }
 
 export default function stableSort(array, comparator) {
+    if (array.length)
+        return [];
     const stabilizedThis = array.map((el, index) => [el, index]);
     stabilizedThis.sort((a, b) => {
         const order = comparator(a[0], b[0]);

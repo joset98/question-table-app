@@ -3,6 +3,7 @@ import { AppBar, Button, Toolbar } from "@mui/material";
 import { Login, Menu, Add, Settings, Comment } from '@mui/icons-material/';
 
 import { NavBox } from "./styles/NavBox.styles";
+import LinkButton from "../../core-ui/styled/LinkButton/LinkButton";
 
 const Header = (props) => {
 
@@ -13,35 +14,35 @@ const Header = (props) => {
 
                         <NavBox >
 
-                            <Button
+                            <LinkButton
                                 startIcon={<Menu/>}
                             >
                                 BROWSE
-                            </Button>
+                            </LinkButton>
 
-                            <Button
+                            <LinkButton
                                 startIcon={<Add/>}
                             >
                                 ADD NEW QUESTION
-                            </Button>
+                            </LinkButton>
 
-                            <Button
+                            <LinkButton
                                 startIcon={<Settings/>}
                             >
                                 API
-                            </Button>
+                            </LinkButton>
 
-                            <Button
+                            <LinkButton
                                 startIcon={<Comment/>}
                             >
                                 DISCUSS
-                            </Button>
+                            </LinkButton>
 
-                            <Button
+                            <LinkButton
                                 startIcon={<Login/>}
                             >
                                 LOGIN
-                            </Button>
+                            </LinkButton>
 
                         </NavBox>
 
