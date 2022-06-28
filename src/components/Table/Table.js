@@ -6,7 +6,6 @@ import {
     InputAdornment,
     InputLabel,
     OutlinedInput,
-    Pagination,
 } from '@mui/material';
 
 import {
@@ -35,6 +34,7 @@ const Table = ({
     title = 'Questions',
     filter,
     onChangeFilter }) => {
+
     const [order, setOrder] = React.useState('asc');
     const [orderBy, setOrderBy] = React.useState(headers[0].id);
     const [page, setPage] = React.useState(1);
