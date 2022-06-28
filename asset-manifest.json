@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/question-table-app/static/css/main.073c9b0a.css",
+    "main.js": "/question-table-app/static/js/main.3d08b741.js",
+    "static/js/787.54a84ea9.chunk.js": "/question-table-app/static/js/787.54a84ea9.chunk.js",
+    "static/media/logo.svg": "/question-table-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/question-table-app/index.html",
+    "main.073c9b0a.css.map": "/question-table-app/static/css/main.073c9b0a.css.map",
+    "main.3d08b741.js.map": "/question-table-app/static/js/main.3d08b741.js.map",
+    "787.54a84ea9.chunk.js.map": "/question-table-app/static/js/787.54a84ea9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3d08b741.js"
+  ]
+}
