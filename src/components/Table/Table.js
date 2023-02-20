@@ -38,7 +38,7 @@ const Table = ({
     const [order, setOrder] = React.useState('asc');
     const [orderBy, setOrderBy] = React.useState(headers[0].id);
     const [page, setPage] = React.useState(1);
-    const [rowsPerPage, setRowsPerPage] = React.useState(5);
+    const [rowsPerPage,] = React.useState(5);
     const pagesCount = Math.round(rows.length / rowsPerPage)
 
     const handleRequestSort = (evt, property) => {
@@ -109,7 +109,7 @@ const Table = ({
                                             key={row.id}
                                         >
                                             {
-                                                headers.map((header, index) =>
+                                                headers.map((header) =>
                                                     <StyledTableCell
                                                         component="th"
                                                         id={labelId}
@@ -150,6 +150,8 @@ Table.propTypes = {
     headers: PropTypes.array.isRequired,
     rows: PropTypes.array.isRequired,
     title: PropTypes.string.isRequired,
+    filter: PropTypes.func.isRequired,
+    onChangeFilter: PropTypes.func.isRequired,
 };
 
 export default Table;

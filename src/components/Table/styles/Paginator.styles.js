@@ -1,6 +1,6 @@
 import { styled } from '@mui/material/styles';
-import Pagination, { paginationClasses } from '@mui/material/Pagination';
-import PaginationItem, { paginationItemClasses  } from '@mui/material/PaginationItem';
+import Pagination from '@mui/material/Pagination';
+import { paginationItemClasses  } from '@mui/material/PaginationItem';
 
 const Paginator = styled(Pagination)(({ theme }) => ({
     display: 'flex', 

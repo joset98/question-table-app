@@ -3,7 +3,6 @@ import { Box } from '@mui/material';
 import {
     TableHead,
     TableRow,
-    TableSortLabel,
 } from '@mui/material';
 import { visuallyHidden } from '@mui/utils';
 import { StyledTableCell, StyledTableLabel } from '../styles/Table.styles';

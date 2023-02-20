@@ -1,8 +1,7 @@
-import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import { Box } from "@mui/system";
 
-const NavBox = styled(Box)(({ theme }) => ({
+const NavBox = styled(Box)(() => ({
     display: 'flex', 
     flexGrow: 1, 
     justifyContent: 'end' 
