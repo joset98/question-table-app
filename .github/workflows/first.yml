@@ -1,17 +1,14 @@
-name: Say hello
+name: First test
 
 on:
   push:
     branches:
       - main
 
-jobs:
-  hello_world:
-    runs-on: ubuntu-18.04
+jobs: 
+  build_app:
+    runs-on: ubuntu-18-04
     steps:
-      - name: Echo the message
+      - name: echo message
         run: |
-          echo "Hola midu!"
-      - name: Dime la fecha
-        run: date
-      - run: ls -l
+          echo "this is a test!"
