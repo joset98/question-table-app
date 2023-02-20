@@ -1,0 +1,15 @@
+name: First
+
+on:
+  push:
+    branches:
+      - main
+
+jobs: 
+  build:
+    first_test:
+      runs-on: ubuntu-18-04
+      steps:
+        - name: echo message
+          run: |
+            echo "this is a test!"
