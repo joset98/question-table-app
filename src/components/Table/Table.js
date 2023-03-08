@@ -150,7 +150,7 @@ Table.propTypes = {
     headers: PropTypes.array.isRequired,
     rows: PropTypes.array.isRequired,
     title: PropTypes.string.isRequired,
-    filter: PropTypes.func.isRequired,
+    filter: PropTypes.string.isRequired,
     onChangeFilter: PropTypes.func.isRequired,
 };
 
