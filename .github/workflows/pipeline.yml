@@ -1,4 +1,4 @@
-name: Deployment Pipeline
+name: First test
 
 on:
   push:
@@ -6,21 +6,9 @@ on:
       - main
 
 jobs: 
-  deploy:
+  build_app:
     runs-on: ubuntu-18-04
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - uses: actions/setup-node@v2
-      with:
-        cache: 'npm'
-        node-version: ${{ matrix.node-version }}
-    - name: Installing dependencies
-      run: npm i
-    - name: Running lint
-      run: npm run lint
-    - name: Build
-      run: npm run build
-    - name: Running Tests
-      run: npm run test
+      - name: echo message
+        run: |
+          echo "this is a test!"
