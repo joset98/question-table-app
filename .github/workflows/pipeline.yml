@@ -17,10 +17,10 @@ jobs:
         cache: 'npm'
         node-version: ${{ matrix.node-version }}
     - name: Installing dependencies
-        run: npm i
+      run: npm i
     - name: Running lint
-        run: npm run lint
+      run: npm run lint
     - name: Build
-        run: npm run build
+      run: npm run build
     - name: Running Tests
-        run: npm run test
+      run: npm run test
