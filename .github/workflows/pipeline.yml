@@ -20,7 +20,9 @@ jobs:
       run: npm i
     - name: Running lint
       run: npm run lint
-    - name: Build
-      run: npm run build
     - name: Running Tests
       run: npm run test
+    - name: Build
+      run: npm run build
+    - name: deploy
+      run: npm run deploy
