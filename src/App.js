@@ -33,6 +33,7 @@ function App() {
       <Header />
       <AppContainer>
         <Box>
+          <h1>HELLO</h1>
           <Table
             headers={tableQuestionHeader}
             rows={filterQuestions}
