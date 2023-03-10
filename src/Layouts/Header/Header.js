@@ -16,7 +16,7 @@ const Header = () => {
                         <LinkButton
                             startIcon={<Menu />}
                         >
-                            BROWSEN
+                            BROWSE
                         </LinkButton>
 
                         <LinkButton
